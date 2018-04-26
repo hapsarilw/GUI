@@ -1,6 +1,40 @@
-.home {
+.homebody {
     background-image: url(../images/BGDoc.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 600px;
+    margin-bottom: 0px;
+}
+
+.midcontainer {
+    margin: auto;
+    padding: 50px;
+}
+
+.innermid {
+    width: 45%;
+    margin:auto;
+    margin-top: 12%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    margin:5px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: antiquewhite;
 }
