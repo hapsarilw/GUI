@@ -23,6 +23,14 @@
     text-align: center;
 }
 
+.innermid table {
+  text-align: left;
+}
+
+.labelket {
+  text-align:left;
+}
+
 .button {
     background-color: white;
     border: none;
