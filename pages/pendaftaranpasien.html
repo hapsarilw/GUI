@@ -6,12 +6,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Klinik Bersama | Daftar Pasien</title>
-  <meta name="Klinik Bersama" content="Halaman pendaftaran pasien di Klinik Bersama">
+  <meta name="Klinik Bersama" content="Halaman pendaftaran pasien">
   <link rel="stylesheet" href="../style/styles.css">
 </head>
 <body>
-  <div>
-    
+  <div class="homebody">
+    <div class="midcontainer">
+      <div class="innermid">
+        <h1>Form Pendaftaran Pasien</h1>
+        <form action="/action_page.php">
+          Nama Lengkap:<br>
+          <input id="nama_pasien" type="text" name="id_karyawan" value="">
+          <br>
+          E-mail:<br>
+          <input id="email_pasien" type="text" name="email" value="">
+          <br>
+          No. Telepon:<br>
+          <input id="telp_pasien" type="text" name="email" value="">
+          <br>
+          Jenis Spesialisasi Dokter:<br>
+          <select id="jenis_spesialisasi" name="jenis_spesialisasi">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+          </select>
+          <br>
+          Nama Dokter:<br>
+          <select id="nama_dokter" name="jenis_spesialisasi">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+          </select>
+          <br>
+          Hari Pertemuan:<br>
+          <input id="hari_pertemuan" type="date" name="bday">
+          <br>
+          Jam Pertemuan:<br>
+          <select id="jam_pertemuan" name="jenis_spesialisasi">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+          </select>
+          <br><br>
+          <input type="submit" class="button" style="width:75px;" value="Login">
+        </form>
+      </div>
+    </div>
   </div>
 </body>
 </html>
