@@ -1,5 +1,5 @@
 <head>
-    <?php include 'tempDok.php'?>
+    <?php include 'tempDok.php' ?>
     <title>Cari Pasien | Dokter</title>
 </head>
 <body>

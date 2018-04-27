@@ -1,5 +1,5 @@
 <head>
-    <?php include 'tempDok.php'?>
+    <?php include 'tempDok.php.php';?>
     <title>Home | Dokter</title>
 </head>
 <body>
@@ -24,8 +24,17 @@
                 <th>17 Mei 2018</th>
                 <th>18.00</th>
                 <th>Jefta</th>
-                <th>Belum Disetujui</th>
-                <th>Lihat Ubah Hapus</th>
+                <th style="color: darkblue;">Ubah</th>
+                <th style="color: darkblue;">Buat Catatan Profil Pasien</th>
+            </tr>
+            <tr>
+                <th>12 Mei 2018</th>
+                <th>20:12</th>
+                <th>18 Mei 2018</th>
+                <th>14.00</th>
+                <th>Vio</th>
+                <th style="color: red;">Terhapus</th>
+                <th style="color: darkblue;"><a href="">Buat Catatan</a> <a href=""> Profil Pasien </a></th>
             </tr>
         </table>
     </div>

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<?php include '../../mydB.php' ?>
     <head>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,23 +10,24 @@
         <meta name="Klinik Bersama" content="Halaman pendaftaran pasien">
         <link rel="stylesheet" href="../../style/styles.css">
         <link rel="stylesheet" href="../../style/font-awesome.css">
+
     </head>
     <body>
         <div class="homebody">
             <div class="midcontainer">
                 <div class="innermid">
                     <h1>Form Pendaftaran Pasien</h1>
-                    <form action="">
+                    <form action="../formHandling/daftarPertemuan.php" method="post">
                         Nama Lengkap:<br>
-                        <input id="nama_pasien" type="text" name="id_karyawan" value=""></input>
+                        <input type="text" name="namaP" value=""></input>
                     <br>
 
                     E-mail:<br>
-                    <input id="email_pasien" type="text" name="email" value=""></input>
+                    <input type="text" name="email" value=""></input>
                 <br>
 
                 No. Telepon:<br>
-                <input id="telp_pasien" type="text" name="email" value="">
+                <input id="telp_pasien" type="text" name="telp" value="">
                 <br>
 
                 Jenis Spesialisasi Dokter:<br>
@@ -38,7 +40,7 @@
                 <br>
 
                 Nama Dokter:<br>
-                <select id="nama_dokter" name="jenis_spesialisasi">
+                <select id="nama_dokter" name="namaD">
                     <option value="volvo">Volvo</option>
                     <option value="saab">Saab</option>
                     <option value="fiat">Fiat</option>
@@ -47,7 +49,7 @@
                 <br>
 
                 Hari Pertemuan:<br>
-                <input id="hari_pertemuan" type="date" name="bday"></input>
+                <input id="hari_pertemuan" type="date" name="tglKetemu"></input>
             <br>
 
             Jam Pertemuan:<br>

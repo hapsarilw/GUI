@@ -1,6 +1,6 @@
 <head>
-    <?php include 'tempDok.php'?>
-    <title>Home | Dokter</title>
+    <?php include 'tempDok.php' ?>
+    <title>Daftar Catatan | Dokter</title>
 </head>
 <body>
 <div class="main">
