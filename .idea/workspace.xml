@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5140e926-10bc-4038-95ee-ed811010e7f7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/pages/doktor/cariPasien.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/doktor/cariPasien.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/doktor/daftarCatatan.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/doktor/daftarCatatan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/doktor/doktor.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/doktor/doktor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/doktor/homeDokter.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/doktor/homeDokter.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/doktor/tempDok.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/doktor/tempDok.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/karyawan/pimpinan/pimpinancaridokter.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/karyawan/pimpinan/pimpinancaridokter.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,20 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mydB.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mydB.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tempDok.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/doktor/tempDok.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+            <state relative-caret-position="374">
+              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -57,6 +45,20 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="karyawanhometemplate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/karyawan/pimpinan/karyawanhometemplate.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pimpinancaridokter.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/karyawan/pimpinan/pimpinancaridokter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -82,21 +84,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="daftarCatatan.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="daftarCatatan.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/doktor/daftarCatatan.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="306">
+              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding>
                 <element signature="n#style#0;n#th#4;n#tr#1;n#table#0;n#div#0;n#body#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.html">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="doktor.js" pinned="false" current-in-tab="false">
@@ -145,8 +142,8 @@
       <find>conten</find>
       <find>hover</find>
       <find>img</find>
-      <find>cek</find>
       <find>main</find>
+      <find>cek</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,10 +157,11 @@
         <option value="$PROJECT_DIR$/pages/doktor/doktor.js" />
         <option value="$PROJECT_DIR$/pages/doktor/assets/doktor.css" />
         <option value="$PROJECT_DIR$/pages/doktor/homeDokter.php" />
-        <option value="$PROJECT_DIR$/pages/doktor/tempDok.php" />
         <option value="$PROJECT_DIR$/pages/doktor/cariPasien.php" />
         <option value="$PROJECT_DIR$/pages/doktor/doktor.css" />
         <option value="$PROJECT_DIR$/pages/doktor/daftarCatatan.php" />
+        <option value="$PROJECT_DIR$/pages/doktor/tempDok.php" />
+        <option value="$PROJECT_DIR$/pages/karyawan/pimpinan/pimpinancaridokter.html" />
       </list>
     </option>
   </component>
@@ -176,7 +174,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -204,6 +202,19 @@
               <item name="KlinikBersama" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="doktor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="KlinikBersama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KlinikBersama" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="karyawan" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="KlinikBersama" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KlinikBersama" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="karyawan" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pimpinan" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="KlinikBersama" type="b2602c69:ProjectViewProjectNode" />
@@ -260,13 +271,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30591000" />
+    <option name="totallyTimeSpent" value="31558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26530612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26530612" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="19" side_tool="true" />
@@ -275,7 +285,7 @@
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.33333334" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32495812" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32495812" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -386,23 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/pasien/konfirmasidaftar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/doktor/tempDok.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/doktor/doktor.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -429,11 +422,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/doktor/daftarCatatan.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="306">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding>
             <element signature="n#style#0;n#th#4;n#tr#1;n#table#0;n#div#0;n#body#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/doktor/tempDok.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/pasien/konfirmasidaftar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/karyawan/pimpinan/karyawanhometemplate.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/karyawan/pimpinan/pimpinancaridokter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>

@@ -20,9 +20,8 @@
             <p>Spesialis</p>
             <p>Email</p>
             <div id="logout">
-                <a href="#"><img style="width: 20px; height: 20px" src='img/logout.png'/><h4 id="keluar">keluar</h4></a>
+                <a href="../karyawan/karyawanlogin.html"><img style="width: 20px; height: 20px" src='img/logout.png'/><h4 id="keluar">keluar</h4></a>
             </div>
-
     </div>
 </div>
 
