@@ -184,11 +184,18 @@ body {
     }
 }
 
-#data_dokter, #data_pasien, tr, th, td{
-    border: 1px solid black;
+#tabeldatakonfirmasi tr {
+    height: 35px;
 }
 
 #data_dokter, #data_pasien {
+    border: 1px solid black;
     width: 100%;
 }
+
+#data_dokter th, #data_dokter tr, #data_dokter td,
+#data_pasien th, #data_pasien tr, #data_pasien td{
+    border:1px solid black;
+}
+
 
