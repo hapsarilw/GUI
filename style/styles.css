@@ -110,7 +110,7 @@ body {
 
 .topnav {
     overflow: hidden;
-    background-color: lightgray;
+    background-color: black;
 }
 
 .topnav a {
@@ -138,10 +138,11 @@ body {
     float: left;
     width: 80%;
     min-height: 80vh;
-    background-color: #f1f1f1;
+    background-color: lightgray;
     padding-left: 20px;
     text-align: center;
     padding-bottom: 10px;
+    padding-right: 20px;
 }
 
 .innerrightcolumn {
@@ -166,12 +167,6 @@ body {
     content: "";
     display: table;
     clear: both;
-}
-
-.footerkaryawan {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
 }
 
 @media screen and (max-width: 800px) {
