@@ -1,7 +1,26 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: user
- * Date: 27/04/2018
- * Time: 17.44
- */
+<head>
+    <?php include 'tempDok.php'?>
+    <title>Home | Dokter</title>
+</head>
+<body>
+<div class="main">
+    <p id="info">Daftar Pasien</p>
+    <table id="tabelNotifikasi">
+        <tr>
+            <th>ID Catatan</th>
+            <th>Nama Pasien</th>
+            <th>Tanggal Pembuatan</th>
+            <th>Status</th>
+            <th>Tindakan</th>
+        </tr>
+        <tr>
+            <th>12</th>
+            <th>Jefta</th>
+            <th>20 Mei 2018</th>
+            <th>Baru</th>
+            <th style="color: darkblue">Lihat Ubah Hapus</th>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

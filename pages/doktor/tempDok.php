@@ -7,10 +7,9 @@
 </head>
 <body>
 <div class="topnav">
-    <a class="active" href="#notifikasi">Notifikasi Pertemuan</a>
-    <a href="#">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+    <a class="active" href="homeDokter.php">Notifikasi Pertemuan</a>
+    <a href="cariPasien.php">Cari Pasien</a>
+    <a href="daftarCatatan.php">Daftar Catatan Pasien</a>
 </div>
 <div id="pageBar">
     <div class="sidenav">

@@ -4,6 +4,7 @@
 </head>
 <body>
     <div class="main">
+        <p id="info">Info Saat Ini</p>
         <p id="hari">Hari : </p>
         <p id="tanggal">Tanggal : </p>
         <p id="bykPasien">Pasien ditangani hari ini : </p>
