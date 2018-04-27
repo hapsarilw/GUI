@@ -76,7 +76,8 @@ body {
     border-radius: 10px;
     width: 40%;
     animation-name: animatetop;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
+    text-align: center;
 }
 
 .close {
@@ -182,3 +183,12 @@ body {
         width: 100%;
     }
 }
+
+#data_dokter, #data_pasien, tr, th, td{
+    border: 1px solid black;
+}
+
+#data_dokter, #data_pasien {
+    width: 100%;
+}
+
