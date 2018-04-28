@@ -1,6 +1,6 @@
 <html>
     <body>
-        <?php require_once ('../../../mydB.php'); ?>
+        <?php require_once ('../../mydB.php'); ?>
 
         <h4>Silahkan menambahkan spesialisasi baru</h4>
         <?php
@@ -23,6 +23,5 @@
             <input type="text" name="namaSp"><br/>
             <button type="submit" name="saveSp">save</button>
         </form>
-
     </body>
 </html>

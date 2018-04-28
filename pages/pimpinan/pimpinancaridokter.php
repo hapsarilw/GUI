@@ -10,6 +10,9 @@ go<!DOCTYPE html>
     </head>
 
     <body>
+        <?php
+            include '../../mydB.php';
+        ?>
         <div class="headerkaryawan">
             <h2>Page Pimpinan</h2>
         </div>
@@ -35,7 +38,7 @@ go<!DOCTYPE html>
                     <div class="card">
                         <p>Masukkan nama/id karyawan:</p>
                         <div class="search-container">
-                            <form action="/action_page.php">
+                            <form action="../formhandling/searchidpasien.php">
                                 <input type="text" placeholder="" name="search">
                                 <button type="submit"><i class="fa fa-search"></i></button>
                             </form>

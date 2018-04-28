@@ -52,10 +52,6 @@
                             <td id="jam_pertemuan">&nbsp;</td>
                         </tr>
                     </table>
-                    <br>
-
-                    Keterangan pendaftaran: (Jika perlu)<br>
-                    <textarea id="keteranganpendaftaran" name="keteranganpendaftaran" style="width:90%; height:100px;"></textarea>
                     <br><br>
 
                     <input id="konfirmasi" type="submit" class="button" style="width:75px;" value="Konfirmasi">

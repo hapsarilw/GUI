@@ -7,9 +7,13 @@
         <title> Klinik Bersama | Pimpinan Home </title>
         <link rel="stylesheet" href="../../style/styles.css">
         <link rel="stylesheet" href="../../style/font-awesome.css">
+        
     </head>
 
     <body>
+        <?php
+            include '../../mydB.php';
+        ?>
         <div class="headerkaryawan">
             <h2>Page Pimpinan</h2>
         </div>
@@ -49,7 +53,7 @@
                     <a href=../../index.html>Ya</a>
                 </button>
                 <button type="button" class="button" style="width:75px;">
-                    <a href=../../index.html>Batal</a>
+                <span class="close">Batal</span>
                 </button>
             </div>
         </div>

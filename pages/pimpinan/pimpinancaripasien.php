@@ -10,6 +10,9 @@
     </head>
 
     <body>
+        <?php
+            include '../../mydB.php';
+        ?>
         <div class="headerkaryawan">
             <h2>Page Pimpinan</h2>
         </div>
