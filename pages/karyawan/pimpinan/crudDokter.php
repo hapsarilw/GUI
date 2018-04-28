@@ -1,12 +1,12 @@
 <html>
 <body>
 <?php
-include 'mydB.php';
+include '../../../mydB.php';
 
 if(!empty($_POST['submit'])){
     $sql = "INSERT INTO karyawan('nama_karyawan','email	password',	'id_spesialisasi',	'jabatan',	'foto')
         VALUES ('".$_POST["namaD"]."','".$_POST["email"]."','".$_POST["password"]."'
-        ,'".$_POST["pilihSP"]."', ,'".$_POST["pilihJb"]."' ,'".$_POST["fileToUpload"]."')";
+        ,'".$_POST["pilihSp"]."', ,'".$_POST["pilihJb"]."' ,'".$_POST["fileToUpload"]."')";
 
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";
@@ -23,16 +23,16 @@ if(!empty($_POST['submit'])){
     Spesialisasi :
         <select name="pilihSp" id="">
             <option selected="true" disabled="disabled">Pilih Spesialisasi</option>
-            <option value="pimpinan">Umum</option>
-            <option value="Dokter">Gigi</option>
-            <option value="pimpinan">Penyakit Dalam</option>
-            <option value="Dokter">Anak</option>
+            <option value="Umum">Umum</option>
+            <option value="Anak">Gigi</option>
+            <option value="Penyakit Dalam">Penyakit Dalam</option>
+            <option value="Kandungan">Anak</option>
         </select>
     <br>
     Jabatan :
     <select name="pilihJb" id="">
         <option selected="true" disabled="disabled">Pilih Jabatan</option>
-        <option value="pimpinan">Pimpinan</option>
+        <option value="Pimpinan">Pimpinan</option>
         <option value="Dokter">Dokter</option>
     </select>
     <br>

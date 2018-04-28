@@ -6,5 +6,7 @@ $dbname = "klinik";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
-$conn->close();
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
 ?>
