@@ -1,12 +1,12 @@
-go<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title> Klinik Bersama | Pimpinan Home </title>
-        <link rel="stylesheet" href="../../../style/styles.css">
-        <link rel="stylesheet" href="../../../style/font-awesome.css">
+        <link rel="stylesheet" href="../../style/styles.css">
+        <link rel="stylesheet" href="../../style/font-awesome.css">
     </head>
 
     <body>
@@ -14,16 +14,16 @@ go<!DOCTYPE html>
             <h2>Page Pimpinan</h2>
         </div>
         <div class="topnav">
-            <a href="pimpinanhome.html">Home</a>
-            <a href="pimpinancaridokter.html">Cari Data Dokter</a>
-            <a href="pimpinancaripasien.html">Cari Data Pasien</a>
+            <a href="pimpinanhome.php">Home</a>
+            <a href="pimpinancaridokter.php">Cari Data Dokter</a>
+            <a href="pimpinancaripasien.php">Cari Data Pasien</a>
             <a href="#">Statistik Klinik</a>
             <a id="logout" href="#" style="float:right">Logout</a>
         </div>
         <div class="row">
             <div class="leftcolumn">
                 <div class="card">
-                    <img src="../../../images/userimg.jpg" alt="dokter" style="height:120px; width: 120px;">
+                    <img src="../../images/userimg.jpg" alt="dokter" style="height:120px; width: 120px;">
                     <h3 id="nama_karyawan">Nama Karyawan</h3>
                     <p id="status_jabatan">status_jabatan</p>
                     <p id="id_karyawan">id_karyawan</p>
@@ -33,7 +33,7 @@ go<!DOCTYPE html>
             <div class="rightcolumn">
                 <div class="homestatisticcolumn">
                     <div class="card">
-                        <p>Masukkan nama/id karyawan:</p>
+                        <p>Masukkan nama/id pasien:</p>
                         <div class="search-container">
                             <form action="/action_page.php">
                                 <input type="text" placeholder="" name="search">
@@ -41,15 +41,13 @@ go<!DOCTYPE html>
                             </form>
                         </div>
                         <br><br>
-                        <table id="data_dokter">
+                        <table id="data_pasien">
                             <tr>
-                                <th>Nama Dokter</th>
-                                <th>ID Karyawan</th>
-                                <th>Jenis Spesialisasi</th>
+                                <th>Nama Pasien</th>
+                                <th>ID Pasien</th>
                                 <th style="width: 10%;"></th>
                             </tr>
                             <tr>
-                                <td>&nbsp;</td>
                                 <td>&nbsp;</td>
                                 <td>&nbsp;</td>
                                 <td>&nbsp;</td>
