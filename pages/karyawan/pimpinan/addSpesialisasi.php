@@ -12,7 +12,7 @@ if(isset($_POST['saveSp'])){
 
 }
 if (mysqli_query($conn, $sql)) {
-    echo $_POST["ngiamaSp"]." berhasil ditambahkan" ;
+    echo $_POST["namaSp"]." berhasil ditambahkan" ;
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

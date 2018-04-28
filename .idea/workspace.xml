@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5140e926-10bc-4038-95ee-ed811010e7f7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydB.php" beforeDir="false" afterPath="$PROJECT_DIR$/mydB.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/karyawan/pimpinan/addSpesialisasi.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/karyawan/pimpinan/addSpesialisasi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/karyawan/pimpinan/crudDokter.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/karyawan/pimpinan/crudDokter.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,8 +49,8 @@
       <file leaf-file-name="addSpesialisasi.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/karyawan/pimpinan/addSpesialisasi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="144">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -158,8 +156,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
+    <option name="x" value="773" />
+    <option name="width" value="600" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -254,16 +252,15 @@
       <workItem from="1524714082376" duration="3263000" />
       <workItem from="1524717821731" duration="484000" />
       <workItem from="1524835766552" duration="4084000" />
-      <workItem from="1524841079411" duration="16768000" />
+      <workItem from="1524841079411" duration="18446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55433000" />
+    <option name="totallyTimeSpent" value="57111000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="773" y="0" width="600" height="735" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50078493" side_tool="true" weight="0.32998326" />
@@ -271,7 +268,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49921507" visible="true" weight="0.3283082" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27158555" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32037038" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.6844584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -577,8 +574,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/karyawan/pimpinan/addSpesialisasi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="144">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
         </state>
       </provider>
     </entry>
